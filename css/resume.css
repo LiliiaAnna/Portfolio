@@ -1,0 +1,19 @@
+.resume-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.section-title {
+    text-align: center;
+    width: 100%;
+}
+
+.section-content {
+    text-align: left;
+    width: 100%;
+}

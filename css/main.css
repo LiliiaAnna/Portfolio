@@ -1,0 +1,248 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body{
+  background-color: #ebb3bc;
+}
+header{
+  background-color: white;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: url(img/bg1.jpg);
+    background-size: cover;
+    
+}
+nav{
+  justify-content: space-between;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #1d1d24;
+    position: relative;
+}
+nav ul li a:hover{
+    color: #fd4766;
+}
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background: #fd4766;
+    transition: .3s;
+    bottom: 0;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+.btn{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+    
+}
+.btn:hover{
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+}
+.content{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+.content .title{
+    color: #1f1f25;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content h1{
+    color: #1f1f25;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+}
+.content h1 span{
+    color: #fd4766;
+}
+.content p{
+    width: 55%;
+    color: #757575;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+  height: 100vh;
+  background: url(img/bg1.jpg);
+  background-size: cover;
+}
+
+.image {
+  flex: 1;
+  text-align: right;
+  padding-right: 2rem;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.text {
+  flex: 1;
+  padding-left: 2rem;
+  color: #1f1f25;
+}
+
+.text h2 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  background: linear-gradient(120deg, #0981e4 20.69%, #7644ff 50.19%,#ebb3bc 89.69%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.text p {
+  font-size: 18px;
+  color: #757575;
+}
+
+/* Existing CSS */
+
+/* Additional CSS for contact form */
+.contact-form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #f9f9f9;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  margin-bottom: 15px;
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+  align-items: center;
+}
+
+.contact-form label {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.logo {
+  max-width: 50px;
+  height: auto;
+  margin: 0 10px;
+  transition: transform 0.3s;
+  
+  
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff; 
+  padding: 15px 0;
+  
+}
+
+
+
+.footer-content p {
+  margin-bottom: 15px; 
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer-logo, .footer-logo2 {
+  max-width: 50px;
+  height: 35px;
+  display: inline-block;
+  margin-top: 3px;
+
+}
+
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+.logo-link {
+}
+
+.logo-img {
+  max-width: 80px;
+  height: auto;
+  margin-right: auto;
+}
+
+nav ul {
+  float: right;
+}
