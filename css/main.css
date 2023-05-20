@@ -12,7 +12,7 @@ a{
     text-decoration: none;
 }
 body{
-  background-color: #ebb3bc;
+  background-color: #f1c3cb;
 }
 header{
   background-color: white;
@@ -135,7 +135,7 @@ nav ul li a:hover:after{
 .text {
   flex: 1;
   padding-left: 2rem;
-  color: #1f1f25;
+  color: #000000;
 }
 
 .text h2 {
@@ -150,7 +150,7 @@ nav ul li a:hover:after{
 
 .text p {
   font-size: 18px;
-  color: #757575;
+  color: #000000;
 }
 
 /* Existing CSS */
@@ -245,4 +245,8 @@ footer {
 
 nav ul {
   float: right;
+}
+
+p{
+  color:black;
 }
