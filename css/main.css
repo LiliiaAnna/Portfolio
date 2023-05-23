@@ -70,7 +70,7 @@ nav ul li a:hover:after{
     background: #fd4766;
     border: 2px solid #fd4766;
     font-family: 'Montserrat', sans-serif;
-    
+    width:65%
 }
 .btn:hover{
     background: transparent;
@@ -185,7 +185,7 @@ nav ul li a:hover:after{
 
 .contact-form input,
 .contact-form textarea {
-  width: 100%;
+  width: 65%
 }
 
 .contact-form textarea {
@@ -252,4 +252,17 @@ nav ul {
 
 p{
   color:black;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  animation: fadeIn 1s ease-in-out;
 }
