@@ -72,6 +72,23 @@ nav ul li a:hover:after{
     font-family: 'Montserrat', sans-serif;
     width:65%
 }
+.button{
+  color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+    font-family: 'Montserrat', sans-serif;
+    width:30%;
+}
+
 .btn:hover{
     background: transparent;
     border-color: #fd4766;
