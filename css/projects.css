@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Quicksand&display=swap');
+
 .card-container {
     display: flex;
     justify-content: space-around;
@@ -24,4 +26,7 @@
 
 .card-content {
     padding: 20px;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
 }
