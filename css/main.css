@@ -178,7 +178,7 @@ nav ul li a:hover:after{
   width: 100%;
   max-width: 700px;
   margin: 0 auto;
-  padding: 55px;
+  padding: 60px;
   background-color: #f9f9f9;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   
@@ -285,3 +285,77 @@ p{
 body {
   animation: fadeIn 1s ease-in-out;
 }
+@media only screen and (max-width: 600px) {
+  /* Styles for smaller screens go here */
+
+  .hero {
+      height: 50vh;
+  }
+
+  nav {
+
+  }
+
+  nav ul li {
+  }
+
+  .btn, .button {
+      padding: 10px 20px;
+      width: 100%;
+  }
+
+  .content {
+      top: 20%;
+      left: 4%;
+  }
+
+  .content .title {
+      font-size: 12px;
+  }
+
+  .content h1 {
+      font-size: 30px;
+      line-height: 60px;
+      width: 100%;
+  }
+
+  .content p {
+      width: 100%;
+  }
+
+  .about {
+      flex-direction: column;
+  }
+
+  .image, .text {
+      padding: 1rem;
+  }
+
+  .contact-form {
+      padding: 30px;
+  }
+
+  .contact-form form {
+      grid-template-columns: 1fr;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+      width: 100%
+  }
+
+  footer {
+      flex-direction: column;
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
+  
+}
+
